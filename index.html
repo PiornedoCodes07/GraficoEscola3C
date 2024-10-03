@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociais no 3C</title>
+    <!--LINK CSS E JS-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> <!-- Plugin para mostrar os labels -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Redes Sociais no Terceiro C</h1>
+        <div class="content">
+            <div class="chart-container">
+                <canvas id="pieChart"></canvas>
+            </div>
+            <div class="checkboxes">
+                <label><input type="checkbox" checked data-social="Facebook"> Facebook</label>
+                <label><input type="checkbox" checked data-social="Instagram"> Instagram</label>
+                <label><input type="checkbox" checked data-social="WhatsApp"> WhatsApp</label>
+                <label><input type="checkbox" checked data-social="TikTok"> TikTok</label>
+                <label><input type="checkbox" checked data-social="Twitter"> Twitter</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
